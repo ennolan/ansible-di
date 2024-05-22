@@ -1,18 +1,17 @@
 # Ansible playbooks for dynamic inventory 🚀
 
+
 ## Introduction 📝
 
-This project is about creating a dynamic inventory for load balancing using Ansible. In this project, I have used the AWS EC2 instances as the inventory servers and HAProxy as the load balancer. The project is divided into two parts. The first part is about creating the dynamic inventory hosts and the second part is about dynamically updating the HAProxy configuration file.
+This project is about creating a dynamic inventory of EC2 instances and configuring an HAProxy load balancer using Ansible. The project is divided into two parts. The first part is about creating the dynamic inventory hosts and the second part is about dynamically updating the HAProxy configuration file.
+
 
 ## Project description 📄
 
-In this Project, I utilized Ansible automation to streamline the provisioning and management of cloud-based infrastructure, In my case I used AWS EC2 instances. The primary goal is to automate the deployment of web servers using Apache HTTP Server (httpd) on dynamically provisioned EC2 instances and orchestrate a dynamic load balancer with HAProxy for distributing incoming traffic across these instances.
+In this Project, I utilized Ansible automation to streamline the provisioning and management of cloud-based infrastructure, In this case I used AWS EC2 instances. The primary goal is to automate the deployment of web servers using Apache HTTP Server (httpd) on dynamically provisioned EC2 instances and orchestrate a dynamic load balancer with HAProxy for distributing incoming traffic across these instances.
+
 
 ## Architecture 🏗️
-
-![Dynamic Inventory using Ansible]
-
-## Features 🌟
 
 - **Dynamic Inventory**: The EC2 instances are dynamically added to the inventory file using the Jinja2 template.
 - **Load Balancing**: The HAProxy configuration file is dynamically updated with the IP addresses of the EC2 instances.
@@ -24,9 +23,6 @@ In this Project, I utilized Ansible automation to streamline the provisioning an
 - IAM User with programmatic access
 - Linux OS (I used Amazon Linux 3)
 
-## Usage Guide 📖
-
-Follow these steps to use this repository:
 
 ### Getting Started 🚦
 
